@@ -2,8 +2,7 @@ var express    = require('express');
 var bodyParser = require('body-parser');
 var weather    = require('openweather-apis');
 
-
-//init app
+//init
 var app = express();
 
 //set the template engine
